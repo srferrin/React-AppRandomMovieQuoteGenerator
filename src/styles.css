@@ -1,0 +1,69 @@
+.background {
+  background: url();
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.subHeading {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-div {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: linear-gradient(30deg, #8cbdbd, #f38686);
+  padding: 50px 100px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin: 5px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.button-anim {
+  animation-name: fadeInOut;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.quote-text {
+  font-size: 24px;
+}
+
+.author-text {
+  font-size: 14px;
+}
